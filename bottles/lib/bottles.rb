@@ -22,7 +22,7 @@ end
 
 
 class BottleVerse
-  def self.opps_i_accidentally_changed_this_method_name(number)
+  def self.lyrics(number)
     new(BottleNumber.for(number)).lyrics
   end
 
